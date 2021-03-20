@@ -1,19 +1,25 @@
 import React from "react";
 import "./Description.css";
+import ReactAnimatedWeather from 'react-animated-weather';
 
 export default function Description() {
+
   let descriptionData = {
     humidity: "Humidity: 80%",
     wind: "Wind: 10mph",
-    alt: "Sunny",
-    imgUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+    alt: "Sunny"
   };
 
   return (
     <div className="Description">
       <div className="row">
         <div className="col-5 text-center">
-          <img src={descriptionData.imgUrl} alt="{descriptionData.alt}" />
+          <ReactAnimatedWeather
+            icon="CLEAR_DAY"
+            color="#000"
+            size={42}
+            animate={true}
+          />
         </div>
         <div className="col-7">
           <ul>
