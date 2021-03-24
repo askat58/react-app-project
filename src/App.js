@@ -4,7 +4,7 @@ import Search from "./Search.js";
 import Today from "./Today.js";
 import Description from "./Description.js";
 
-function App() {
+export default function App() {
   return (
     <div className="container">
       <div className="weather-app-wrapper">
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+
