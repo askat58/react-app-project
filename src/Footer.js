@@ -13,7 +13,13 @@ export default function Footer() {
         >
           Open-source code
         </a>{" "}
-        by Joanna Tucka
+        coded by <a
+          className="footer-author"
+          href="https://www.linkedin.com/in/joanna-el%C5%BCbieta-t-288561181/" target="_blank"
+          rel="noreferrer"
+        >
+          Joanna Tucka
+        </a>
       </small>
     </div>
   );

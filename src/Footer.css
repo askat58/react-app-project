@@ -1,3 +1,7 @@
+.Footer {
+  font-size: 12px;
+  padding: 3px;
+}
 .Footer .footer-link {
   color: #00214d;
   background-color: #d1ecf7;
@@ -8,4 +12,14 @@
 .Footer .footer-link:hover {
   color: rgb(0, 132, 194);
   cursor: pointer;
+}
+
+.Footer .footer-author {
+  color: #00214d;
+  text-decoration: none;
+}
+
+.Footer .footer-author:hover {
+  color: #0091d4;
+  text-decoration: none;
 }

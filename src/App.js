@@ -6,16 +6,19 @@ import Description from "./Description.js";
 
 export default function App() {
   return (
-    <div className="container">
-      <div className="weather-app-wrapper">
-        <div className="weather-app">
-          <Search />
-          <Today />
-          <Description />
+    <div className="App">
+      <div className="container">
+        <div className="weather-app-wrapper">
+          <div className="weather-app">
+            <Search />
+            <Today />
+            <Description />
+          </div>
+          <Footer />
         </div>
-        <Footer />
       </div>
     </div>
+
   );
 }
 

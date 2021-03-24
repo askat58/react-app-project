@@ -1,19 +1,20 @@
 .Today h1 {
-  font-size: 26px;
+  color: #0458b9;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .Today h2 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .Today strong {
-  font-size: 28px;
+  font-size: 24px;
 }
 .Today .units {
   position: relative;
-  font-size: 16px;
+  font-size: 14px;
   top: -24px;
 }
 

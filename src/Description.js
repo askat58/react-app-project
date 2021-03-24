@@ -16,8 +16,8 @@ export default function Description() {
         <div className="col-5 text-center">
           <ReactAnimatedWeather
             icon="CLEAR_DAY"
-            color="#000"
-            size={42}
+            color="#057fe8"
+            size={50}
             animate={true}
           />
         </div>

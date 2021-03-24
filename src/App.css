@@ -1,10 +1,11 @@
-.weather-app-wrapper {
+.App .weather-app-wrapper {
   font-family: "Rubik", sans-serif;
   max-width: 360px;
   margin: 0 auto;
+  text-align: center;
 }
 
-.weather-app {
+.App .weather-app {
   border: 1px solid #214547;
   border-radius: 15px;
   box-shadow: 3px 3px 5px #0b2a36;
