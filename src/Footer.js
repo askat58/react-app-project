@@ -11,7 +11,7 @@ export default function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          Open-source code
+          Open-source on GitHub
         </a>{" "}
         coded by <a
           className="footer-author"
