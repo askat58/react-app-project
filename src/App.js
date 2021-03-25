@@ -1,8 +1,6 @@
 import './App.css';
 import Footer from "./Footer.js";
-import Search from "./Search.js";
-import Today from "./Today.js";
-import Description from "./Description.js";
+import Weather from "./Weather.js";
 
 export default function App() {
   return (
@@ -10,9 +8,7 @@ export default function App() {
       <div className="container">
         <div className="weather-app-wrapper">
           <div className="weather-app">
-            <Search />
-            <Today />
-            <Description />
+            <Weather defaultCity="London" />
           </div>
           <Footer />
         </div>
