@@ -4,26 +4,24 @@
 
 .Weather h1 {
   color: #0458b9;
-  font-size: 30px;
+  font-size: 34px;
   font-weight: bold;
 }
 
 .Weather h2 {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 .Weather strong {
+  color: #0458b9;
   font-size: 34px;
 }
 .Weather .units {
+  color: #000;
   position: relative;
   font-size: 14px;
   top: -24px;
-}
-
-.Weathera {
-  text-decoration: none;
 }
 
 .Weather ul {
