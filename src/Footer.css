@@ -18,10 +18,11 @@
 }
 
 .Footer .footer-author {
-  color: #148596;
+  color: #06adad;
   text-decoration: none;
 }
 
 .Footer .footer-author:hover {
+  color: #148596;
   cursor: pointer;
 }
