@@ -4,25 +4,26 @@
 }
 .Footer .footer-link {
   color: #00214d;
-  background-color: #e6f7f8;
-  border: 1px solid #148596;
+  background-color: #bdedfc;
+  border: 1px solid #037fc7;
   border-radius: 15px;
   padding: 4px;
   letter-spacing: 2px;
+  padding: 3px 18px;
   text-decoration: none;
 }
 
 .Footer .footer-link:hover {
-  color: #148596;
+  color: #0093aa;
   cursor: pointer;
 }
 
 .Footer .footer-author {
-  color: #06adad;
+  color: #0568c4;
   text-decoration: none;
 }
 
 .Footer .footer-author:hover {
-  color: #148596;
+  color: #c26b07;
   cursor: pointer;
 }

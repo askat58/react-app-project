@@ -1,26 +1,31 @@
 .Weather {
-  padding: 5px;
+  margin: 0px;
+}
+
+.Weather form {
+  margin: 15px;
 }
 
 .Weather h1 {
   color: #0458b9;
   font-size: 34px;
   font-weight: bold;
+  padding-bottom: 10px;
 }
 
 .Weather h2 {
   font-size: 16px;
-  line-height: 1;
+  line-height: 0.5;
 }
 
 .Weather strong {
   color: #0458b9;
-  font-size: 34px;
+  font-size: 38px;
 }
 .Weather .units {
   color: #000;
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   top: -24px;
 }
 
@@ -32,7 +37,7 @@
 
 .Weather li {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
   list-style: none;
   margin: 0;
@@ -40,5 +45,5 @@
 }
 
 .Weather canvas {
-  margin: 10px 0 10px 50px;
+  margin-left: 100px;
 }

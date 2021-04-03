@@ -1,4 +1,5 @@
 .App .weather-app-wrapper {
+  background-repeat: no-repeat;
   font-family: "Rubik", sans-serif;
   max-width: 500px;
   margin: 0 auto;
@@ -7,6 +8,17 @@
 }
 
 .App .weather-app {
+  background: #b2fefa; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #5fdcf5,
+    #b2fefa
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #5fdcf5,
+    #b2fefa
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: 1px solid #214547;
   border-radius: 15px;
   box-shadow: 1px 1px 5px #01398e;
