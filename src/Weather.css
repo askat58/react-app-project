@@ -1,9 +1,10 @@
 .Weather {
   margin: 0px;
+  padding: 10px;
 }
 
 .Weather form {
-  margin: 15px;
+  margin-bottom: 25px;
 }
 
 .Weather h1 {
@@ -20,7 +21,8 @@
 
 .Weather strong {
   color: #0458b9;
-  font-size: 38px;
+  font-size: 40px;
+  
 }
 .Weather .units {
   color: #000;

@@ -47,16 +47,16 @@ export default function Weather(props) {
                   <input
                     type="search"
                     placeholder="Type a city..."
-                    className="form-control form-control-sm w-100"
+                    className="form-control form-control w-100"
                     autoFocus="on"
                     onChange={handleCityChange}
                   />
                 </div>
-                <div className="col-2">
+                <div className="col">
                   <input
                     type="submit"
                     value="Search"
-                    className="btn btn-primary btn-sm"
+                    className="btn btn-primary .btn-lg"
                     autoComplete="off"
                   />
                 </div>

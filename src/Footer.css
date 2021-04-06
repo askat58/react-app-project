@@ -4,7 +4,7 @@
 }
 .Footer .footer-link {
   color: #00214d;
-  background-color: #bdedfc;
+  background-color: #e4f4f9;
   border: 1px solid #037fc7;
   border-radius: 15px;
   padding: 4px;
@@ -14,7 +14,7 @@
 }
 
 .Footer .footer-link:hover {
-  color: #0093aa;
+  font-weight: bold;
   cursor: pointer;
 }
 
