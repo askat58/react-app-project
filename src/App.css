@@ -19,9 +19,9 @@
     #5fdcf5,
     #b2fefa
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border: 1px solid #214547;
+  border: 1px solid #0abce4;
   border-radius: 15px;
-  box-shadow: 1px 1px 5px #01398e;
+  box-shadow: 1px 1px 5px #0884a0;
   padding: 30px 15px;
   margin: 20px 0 5px 0;
 }
