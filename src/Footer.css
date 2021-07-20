@@ -1,5 +1,4 @@
 .Footer {
-  font-size: 14px;
   padding: 3px;
 }
 .Footer .footer-link {
@@ -9,7 +8,7 @@
   border-radius: 15px;
   padding: 4px;
   letter-spacing: 2px;
-  padding: 3px 18px;
+  padding: 3px 14px;
   text-decoration: none;
 }
 
@@ -20,10 +19,11 @@
 
 .Footer .footer-author {
   color: #0568c4;
+
   text-decoration: none;
 }
 
 .Footer .footer-author:hover {
-  color: #c26b07;
   cursor: pointer;
+  font-weight: bold;
 }

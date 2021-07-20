@@ -11,11 +11,13 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open-source on GitHub
+          Open-source on GitHub available
         </a>{" "}
-        coded by <a
+        coded by{" "}
+        <a
           className="footer-author"
-          href="https://www.linkedin.com/in/joanna-el%C5%BCbieta-t-288561181/" target="_blank"
+          href="https://www.linkedin.com/in/joanna-el%C5%BCbieta-t-288561181/"
+          target="_blank"
           rel="noopener noreferrer"
         >
           Joanna Tucka

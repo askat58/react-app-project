@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 import Footer from "./Footer.js";
 import Weather from "./Weather.js";
 
@@ -16,5 +16,3 @@ export default function App() {
     </div>
   );
 }
-
-
