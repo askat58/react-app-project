@@ -20,7 +20,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Joanna Tucka
+          Joanna Tucka.
         </a>
       </small>
     </div>
