@@ -1,22 +1,21 @@
 .Weather {
-  margin: 0px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
 }
 
 .Weather form {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
 }
 
 .Weather h1 {
   color: #0458b9;
   font-size: 34px;
   font-weight: bold;
-  padding-bottom: 10px;
 }
 
 .Weather h2 {
   font-size: 16px;
-  line-height: 0.5;
+  line-height: 0.2;
 }
 
 .Weather strong {
@@ -25,9 +24,10 @@
 }
 .Weather .units {
   color: #000;
+  font-weight: bold;
   position: relative;
   font-size: 16px;
-  top: -24px;
+  top: -18px;
 }
 
 .Weather ul {
@@ -43,4 +43,25 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+@media (orientation: portrait) {
+  .Weather li {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+@media (orientation: landscape) {
+  .Weather h1 {
+    font-size: 32px;
+  }
+
+  .Weather h2 {
+    font-size: 14px;
+  }
+
+  .Weather p {
+    font-size: 14px;
+  }
 }

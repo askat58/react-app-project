@@ -6,9 +6,8 @@
   background-color: #e4f4f9;
   border: 1px solid #037fc7;
   border-radius: 15px;
-  padding: 4px;
   letter-spacing: 2px;
-  padding: 3px 14px;
+  padding: 2px 14px;
   text-decoration: none;
 }
 
@@ -26,4 +25,16 @@
 .Footer .footer-author:hover {
   cursor: pointer;
   font-weight: bold;
+}
+
+@media (orientation: portrait) {
+  .Footer {
+    padding: 7px;
+  }
+}
+
+@media (orientation: landscape) {
+  .Footer {
+    padding: 0;
+  }
 }

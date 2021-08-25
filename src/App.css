@@ -1,10 +1,8 @@
 .App .weather-app-wrapper {
-  background-repeat: no-repeat;
   font-family: "Rubik", sans-serif;
   max-width: 500px;
   margin: 0 auto;
   text-align: center;
-  padding: 15px;
 }
 
 .App .weather-app {
@@ -23,5 +21,20 @@
   border-radius: 15px;
   box-shadow: 1px 1px 5px #0884a0;
   padding: 30px 15px;
-  margin: 20px 0 5px 0;
+  margin: px 0;
+}
+
+@media (orientation: portrait) {
+  .App .weather-app {
+    margin-top: 20px;
+  }
+}
+
+@media (orientation: landscape) {
+  .App .weather-app {
+    max-width: 640px;
+    max-height: 330px;
+    padding: 1px 20px;
+    margin-top: 5px;
+  }
 }
