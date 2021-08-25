@@ -15,7 +15,6 @@
 
 .Weather h2 {
   font-size: 16px;
-  line-height: 0.2;
 }
 
 .Weather strong {
@@ -41,8 +40,6 @@
   font-size: 16px;
   line-height: 1.5;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 @media (orientation: portrait) {
@@ -54,7 +51,7 @@
 
 @media (orientation: landscape) {
   .Weather h1 {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .Weather h2 {
@@ -63,5 +60,9 @@
 
   .Weather p {
     font-size: 14px;
+  }
+
+  .Weather strong {
+    font-size: 24px;
   }
 }

@@ -21,7 +21,7 @@
   border-radius: 15px;
   box-shadow: 1px 1px 5px #0884a0;
   padding: 30px 15px;
-  margin: px 0;
+  margin: 0;
 }
 
 @media (orientation: portrait) {
@@ -33,7 +33,7 @@
 @media (orientation: landscape) {
   .App .weather-app {
     max-width: 640px;
-    max-height: 330px;
+    max-height: 320px;
     padding: 1px 20px;
     margin-top: 5px;
   }
