@@ -1,11 +1,2 @@
-@media (orientation: landscape) {
-  .Weatherinfo p {
-    margin: 0;
-  }
 
-  .landscape-grid {
-    display: inline-flex;
-    justify-content: space-between;
-    padding-top: 10px;
-  }
-}
+

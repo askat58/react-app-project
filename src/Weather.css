@@ -4,7 +4,7 @@
 }
 
 .Weather form {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 
 .Weather h1 {
@@ -37,8 +37,8 @@
 
 .Weather li {
   display: block;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 14px;
+  line-height: 1;
   list-style: none;
 }
 
@@ -52,6 +52,7 @@
 @media (orientation: landscape) {
   .Weather h1 {
     font-size: 28px;
+    margin-bottom: 0;
   }
 
   .Weather h2 {
@@ -59,10 +60,11 @@
   }
 
   .Weather p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 0.1;
   }
 
   .Weather strong {
-    font-size: 24px;
+    font-size: 22px;
   }
 }

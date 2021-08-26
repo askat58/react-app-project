@@ -1,6 +1,7 @@
 .Footer {
   padding: 3px;
 }
+
 .Footer .footer-link {
   color: #00214d;
   background-color: #e4f4f9;
@@ -36,6 +37,6 @@
 
 @media (orientation: landscape) {
   .Footer {
-    padding: 0;
+    display: none;
   }
 }

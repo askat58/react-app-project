@@ -1,5 +1,6 @@
 .WeatherForecast {
   text-align: center;
+  font-size: 12px;
 }
 
 .WeatherForecast-temperature-min {
@@ -7,8 +8,3 @@
   margin-left: 5px;
 }
 
-@media (orientation: portrait) {
-  .col {
-    padding: 0;
-  }
-}
